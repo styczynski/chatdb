@@ -22,3 +22,15 @@ use it as a database that is incredibly slow, makes mistakes and do not always r
 7. Now the last step is to execute `poetry run python3 demo.py`
 
 ![Chrome token](https://github.com/styczynski/chatdb/blob/main/static/token.png?raw=true)
+
+## Supported features
+
+* 🔁 Very rough retries and function trying to convert model reponses to some form of standarized output
+* ➕ Save values with `write("key", value)`
+* 👀 Read value under key with `read("key")`
+* 🚮 Delete key with `delete("key")`
+* 🔢 List all key-value pairs with `all()`
+* 🔎 Filter values using regex for keys `filter("regex")` (sometimes returns keys, sometimes values, sometimes both, it's okay to be undecided I guess?)
+* 💬 `query("What is your purpose?")` You can ask existential questions too! Let's be depressed together!
+* 📓 Get log of operations with `get_log()`
+* ⏪ Undo operations (that is suuuuper slow because we reconstruct the database) with `undo(2)`
