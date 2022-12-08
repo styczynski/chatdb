@@ -3,9 +3,9 @@
 **ChatDB** *(pronounced "theworstideaeverdb")* is just incredibly stupid idea to convince ChatGPT instance using its API, that it's a key-value store and
 use it as a database that is incredibly slow, makes mistakes and do not always repond using the same format, buuuut
 <br />
-[*at least it can write you a poem when summing up the values!*](www.google.com)
+[*at least it can write you a poem when summing up the values!*](https://medium.com/@styczynski/probably-the-worst-database-ever-but-hey-it-can-write-poems-539b7757ad6d)
 
-[📚 Please can read full Medium article here](www.google.com)
+[📚 Please can read full Medium article here](https://medium.com/@styczynski/probably-the-worst-database-ever-but-hey-it-can-write-poems-539b7757ad6d)
 
 <p align="center">
 <img alt="Chat DB screenshot" width="600px" src="https://github.com/styczynski/chatdb/blob/main/static/screenshot.png?raw=true" />
